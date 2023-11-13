@@ -1,0 +1,104 @@
+/* ViewFinancialData.css */
+.financial-data-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.financial-data-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+
+.data-label {
+  font-weight: bold;
+}
+
+.data-value {
+  color: #555;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 900px) {
+  .financial-data-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .financial-data-container {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+}
+
+
+/* Add these styles for the Submit button */
+.submit-button-container {
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #db4534;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #2f5670;
+  }
+
+
+  /* Add this to your styles or create a new CSS file */
+.login-button-container {
+    margin-top: 20px;
+  }
+  
+  /* Style for the Login button */
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #2980b9;
+  }
+
+  .flex {
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+  }
+  

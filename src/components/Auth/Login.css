@@ -1,0 +1,54 @@
+/* Login.css */
+
+.login-container {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  input {
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #a61c1c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries */
+
+@media (max-width: 768px) {
+    .login-container,
+    .register-container {
+        width: 90%;
+        max-width: none;
+    }
+}

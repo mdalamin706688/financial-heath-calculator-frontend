@@ -1,0 +1,76 @@
+/* SubmitFinancialData.css */
+
+.submit-financial-data-container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #3498db;
+    font-size: 1.5em;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #219952;
+  }
+  
+  /* Display the score on smaller screens */
+  .score-container {
+    margin-top: 20px;
+  }
+  
+  .score {
+    font-size: 1.5em;
+  }
+  
+  /* Responsive layout adjustments */
+  @media (max-width: 768px) {
+    .submit-financial-data-container {
+      padding: 10px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    .submit-button {
+      font-size: 14px;
+    }
+  }
+  
